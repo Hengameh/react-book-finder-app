@@ -1,0 +1,58 @@
+/********************Book CSS***********************/
+.book-list {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 15px;
+  position: relative;
+}
+
+.book {
+  background: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  margin: auto auto;
+  margin-top: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+h2 {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+strong {
+  color: rgb(104, 8, 45);
+}
+
+.book-title > a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.book-title > a:hover {
+  color: #0b50b8;
+}
+
+.book-thumbnail {
+  height: auto;
+  border-radius: 8px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.book p {
+  margin-top: 8px;
+  text-align: justify;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+}

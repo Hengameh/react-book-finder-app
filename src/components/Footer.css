@@ -1,0 +1,12 @@
+/********************Footer CSS***********************/
+#Footer {
+  position: fixed;
+  right: 25px;
+  bottom: 4px;
+  color: #ffffff;
+  font-size: 8px;
+}
+
+a {
+  color: #f8e007;
+}
